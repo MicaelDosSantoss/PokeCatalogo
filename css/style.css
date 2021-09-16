@@ -1,0 +1,29 @@
+.caixa {
+    background: linear-gradient(86.57deg, #FAD61F -3.78%, rgba(250, 214, 31, 0) 174.9%);
+    border-radius: 31px;
+    width: 250px;
+    height: 250.76px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+                           
+}
+
+.listagem{
+    margin-left: 20px;
+}
+
+.adcCarrinho{
+    margin-top: 15px;
+    text-align: center;
+    
+    background-color: yellow;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+}
+
+.queEessePokemon {
+    color: white;
+    font-size: 20px;
+}
