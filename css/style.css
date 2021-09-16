@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background: linear-gradient(86.57deg, #FAD61F -3.78%, rgba(250, 214, 31, 0) 174.9%);
+    padding: 0 30px;
+    margin: -19px 0;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 21px;
+}
+
+li {
+    margin: 0 7px;
+}
+
+.desktop {
+    opacity: 44%;
+
+    
+}
+
+input{
+    border-radius: 50px;
+    border: none;
+    
+}
+
+#pesquisar {
+    width: 317px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.44);
+    border: none;
+    border-radius: 50px;
+    text-align: left;
+    /* background-image: url(../img/Vectorlupa.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 17px; */
+}
+
+section.mobile {
+    display: none;
+}
+
+#elipse {
+    background-color: #FAD61F;
+    background-image: url('../img/lighning\ 1.png');
+    /* background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; */
+}
+
+header h1 {
+    font-size: 30px;
+    margin: auto 0;
+}
+
 .caixa {
     background: linear-gradient(86.57deg, #FAD61F -3.78%, rgba(250, 214, 31, 0) 174.9%);
     border-radius: 31px;
@@ -26,4 +93,16 @@
 .queEessePokemon {
     color: white;
     font-size: 20px;
+}
+
+aside {
+  
+}
+
+.carrinho{
+
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(116, 111, 111, 0.2) 0%, rgba(116, 111, 111, 0) 121.94%);
+    
 }
